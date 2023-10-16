@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import MobileMenu from './mobile-menu'
+import Link from "next/link";
+import Image from "next/image";
+import MobileMenu from "./mobile-menu";
 
 export default function Header() {
   return (
@@ -11,9 +11,10 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Cruip">
-              <Image className="w-8 h-8 fill-current"
-                src="/images\IgMetricsLogo.png"
-                width={900}
+              <Image
+                className="w-8 h-8 fill-current"
+                src="/images\logo.png"
+                width={500}
                 height={500}
                 alt="IG Metrics"
               />
@@ -22,8 +23,8 @@ export default function Header() {
 
           {/* Desktop navigation */}
           {/* <nav className="hidden md:flex md:grow"> */}
-            {/* Desktop sign in links */}
-            {/* <ul className="flex grow justify-end flex-wrap items-center">
+          {/* Desktop sign in links */}
+          {/* <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
                   href="/signin"
@@ -41,9 +42,8 @@ export default function Header() {
           </nav>*/}
 
           {/*<MobileMenu /> */}
-
         </div>
       </div>
     </header>
-  )
+  );
 }
