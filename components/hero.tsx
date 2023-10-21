@@ -25,8 +25,8 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1 mb-4" data-aos="fade-up">Access Real Time Follower Growth Analytics</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200"> IG Metrics tracks your Instagram follower changes in 15-minute intervals, providing real-time insights into your growth trends</p>
+            <h1 className="h1 mb-4" data-aos="fade-up">Access Real-Time Follower Growth Analytics</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200"> IG Metrics tracks your Instagram follower changes in 15-minute intervals, providing true-time insights into your growth trends</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
             <Link href="https://t.me/IGMetricsBot" className="block" aria-label="Cruip">
               <div data-aos="fade-up" data-aos-delay="400">

@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <section>
+    <section id='section1'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
@@ -14,8 +14,8 @@ export default function Features() {
               <path d="M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1 7.935 1.007 9.425 4.747" />
               <path d="M20 4v5h-5" />
             </svg>
-              <h4 className="h4 mb-2">Real Time Updates</h4>
-              <p className="text-lg text-gray-400 text-center">Gain a competative edge with a real time analysis of your follower growth in 15 minute increments &#x28;15m/30m/45m/60m&#x29;  </p>
+              <h4 className="h4 mb-2">Real-Time Updates</h4>
+              <p className="text-lg text-gray-400 text-center">Gain a competative edge with a live analysis of your follower growth in 15 minute increments &#x28;15m/30m/45m/60m&#x29;  </p>
             </div>
 
             {/* 2nd item */}
@@ -29,7 +29,7 @@ export default function Features() {
               <path d="M14 4v3" />
             </svg>
               <h4 className="h4 mb-2">Optimize Content Strategy</h4>
-              <p className="text-lg text-gray-400 text-center">Pinpoint the magic formula for Instagram - analyze which of your posts drive follower growth and identify areas for improvement</p>
+              <p className="text-lg text-gray-400 text-center">Pinpoint the magic formula for Instagram - analyze which of your posts drive follower growth and identify areas of improvement</p>
             </div>
 
             {/* 3rd item */}

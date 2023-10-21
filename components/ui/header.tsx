@@ -16,32 +16,44 @@ export default function Header() {
                 src="/images\logo.png"
                 width={500}
                 height={500}
-                alt="IG Metrics"
+                alt="IGMetrics"
               />
             </Link>
+            
           </div>
+          <div className="font-architects-daughter text-xl text-purple-600 mb-2">IGMetrics</div>
 
           {/* Desktop navigation */}
-          {/* <nav className="hidden md:flex md:grow"> */}
+          <nav className="hidden md:flex md:grow"> 
           {/* Desktop sign in links */}
-          {/* <ul className="flex grow justify-end flex-wrap items-center">
+          <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/signin"
+                  href="#section1"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Sign in
+                  Features
                 </Link>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Sign up
+                <Link href="#payments" className="ont-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link href="https://t.me/IGMetricsBot" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                  Get Started
+                </Link>
+              </li>
+              <li>
+                <Link href="https://t.me/ninthdegree" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                  Contact Us
                 </Link>
               </li>
             </ul>
-          </nav>*/}
+          </nav>
 
-          {/*<MobileMenu /> */}
+          <MobileMenu />
         </div>
       </div>
     </header>
