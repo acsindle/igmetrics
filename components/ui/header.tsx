@@ -12,7 +12,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="block" aria-label="Cruip">
               <Image
-                className="w-8 h-8 fill-current"
+                className="w-12 h-12 fill-current"
                 src="/images\logo.png"
                 width={500}
                 height={500}
@@ -21,7 +21,7 @@ export default function Header() {
             </Link>
             
           </div>
-          <div className="font-architects-daughter text-xl text-purple-600 mb-2">IGMetrics</div>
+          <div className="font-architects-daughter text-3xl text-purple-600 mb-2">IGMetrics</div>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow"> 
