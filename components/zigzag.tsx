@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/zigzag4.png'
-import FeatImage02 from '@/public/images/zizzag2.png'
-import FeatImage03 from '@/public/images/features-03-image-03.png'
+import FeatImage01 from '@/public/images/zigzag5.png'
+import FeatImage02 from '@/public/images/zigzag6.png'
+import FeatImage03 from '@/public/images/zigzag7.png'
 
 export default function Zigzag() {
   return (
