@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-10xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between gap-2 h-20">
           {/* Site branding */}
           <div className="shrink-0">
             {/* Logo */}
@@ -19,14 +19,13 @@ export default function Header() {
                 alt="IGMetrics"
               />
             </Link>
-            
           </div>
-          <div className="font-architects-daughter text-3xl mb-2">IGMetrics</div>
+          <h1 className="font-architects-daughter text-3xl">IGMetrics</h1>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:grow"> 
-          {/* Desktop sign in links */}
-          <ul className="flex grow justify-end flex-wrap items-center">
+          <nav className="hidden md:flex md:grow">
+            {/* Desktop sign in links */}
+            <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
                   href="#section1"
@@ -36,17 +35,26 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="#payments" className="ont-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <Link
+                  href="#payments"
+                  className="ont-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="https://t.me/IGMetricsBot" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link
+                  href="https://t.me/IGMetricsBot"
+                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                >
                   Get Started
                 </Link>
               </li>
               <li>
-                <Link href="https://t.me/ninthdegree" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link
+                  href="https://t.me/ninthdegree"
+                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                >
                   Contact Us
                 </Link>
               </li>
